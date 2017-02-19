@@ -6,8 +6,8 @@ And the script `run.sh` will parse and execute them.
 
 ## Usage
 
-  ./run.sh Hello.c
-  ./run.sh Hello.cpp
-  ./run.sh Hello.py
+    ./run.sh Hello.c
+    ./run.sh Hello.cpp
+    ./run.sh Hello.py
 
 

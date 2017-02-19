@@ -1,6 +1,7 @@
 ; /usr/local/bin/nasm -f macho32 Hello_mac32.asm
 ; ld -macosx_version_min 10.7.0 -lSystem -o Hello_mac32 Hello_mac32.o
 ; ./Hello_mac32
+; rm Hello_mac32 Hello_mac32.o
 
 global start
 

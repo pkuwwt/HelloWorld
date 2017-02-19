@@ -1,6 +1,7 @@
 ; /usr/local/bin/nasm -f macho64 Hello_mac64.asm 
 ; ld -macosx_version_min 10.7.0 -arch x86_64 -lSystem -o Hello_mac64 Hello_mac64.o 
-; ./Hello_mac
+; ./Hello_mac64
+; rm Hello_mac64.o Hello_mac64
 
 global start
 
